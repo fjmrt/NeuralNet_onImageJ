@@ -1,2 +1,2 @@
 # NeuralNet_onImageJ
-handwriting number recgnition
+handwriting number recognition
