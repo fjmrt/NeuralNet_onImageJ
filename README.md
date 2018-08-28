@@ -1,6 +1,10 @@
 # NeuralNet_onImageJ
 Real time handwriting number recognition based on 2 layers dense neural net on ImageJ.
 
+## DEMO
+![demo_movie](https://user-images.githubusercontent.com/40162543/44721586-5ab81600-ab05-11e8-9789-4282a9aca3c0.gif)
+
+
 ## contents
 - mnist2layersKeras.py
 - mnist2layersWeight.txt
