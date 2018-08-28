@@ -9,7 +9,6 @@ macro "mnist_2layers"{
 		author:
 		Taihei Fujimori
 	*/
-	requires("1.49t");
 
 	VISIBLE = 0;
 	DIR = getDirectory("plugins")+"mymacro/";
@@ -35,7 +34,9 @@ macro "mnist_2layers"{
 			imid = getImageID;
 		}
 		setForegroundColor(255, 255, 255);
-		run("Paintbrush Tool Options...", "brush=20");
+		if (getVersion<="1.49t") {
+			run("Paintbrush Tool Options...", "brush=20");
+		}
 		setTool("Paintbrush Tool");
 
 		waitForUser("mnist", "Draw a number, then click OK.");
