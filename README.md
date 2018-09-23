@@ -5,7 +5,7 @@ On-the-spot handwriting number recognition based on 2 layers dense neural net on
 ![demo_movie](https://user-images.githubusercontent.com/40162543/44721586-5ab81600-ab05-11e8-9789-4282a9aca3c0.gif)
 
 
-## contents
+## Contents
 - mnist2layersKeras.py
 - mnist2layersWeight.txt
 - mnist_2layers.ijm
@@ -20,7 +20,7 @@ The example output of mnist2layersKeras.py.
 This program is written in ImageJ macro.  Handwriting number will be estimated based on neural net with the parameters in mnist2layersWeight.txt.
 
 ## How to use
-### Handwriting recognition
+### handwriting recognition
 1. Insatall imageJ, create 'mymacro' folder in 'plugin' folder.
 2. Put 'mnist2layersWeight.txt' and 'mnist_2layers.ijm' in mymacro folder.
 3. Start ImageJ.
