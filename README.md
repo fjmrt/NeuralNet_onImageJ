@@ -2,7 +2,9 @@
 On-the-spot handwriting number recognition based on 2 layers dense neural net on ImageJ.
 
 ## DEMO
-![demo_movie](https://user-images.githubusercontent.com/40162543/44721586-5ab81600-ab05-11e8-9789-4282a9aca3c0.gif)
+<div align="center">
+<img src="https://user-images.githubusercontent.com/40162543/46203583-3a25ea80-c355-11e8-8b0d-37e3e36d5a5b.gif" width="70%">
+</div>
 
 
 ## Contents
