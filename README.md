@@ -27,12 +27,12 @@ This program is written in ImageJ macro.  Handwriting number will be estimated b
 2. Put 'mnist2layersWeight.txt' and 'mnist_2layers.ijm' in mymacro folder.
 3. Start ImageJ.
 4. You can see mymacro in Pulgin menu. Select "mnist 2layers" in plugin menu.
-5. GUI will guide you. 20 pixel width paintbrush tool is optimal for drawing.
+5. GUI will guide you. 20 pixel width paintbrush tool is optimal for drawing a number.
 
 
 - If you activate "show probability", the probability distribution will be shown.
 - Press OK after drawing a number, then you get popup with estimated number and a bar graph of probability distribution.
-- Drawn image is binned by average into 28x28 pix during estimation.
+- The image is binned by average into 28x28 pix during estimation.
 
 ### neural net learning
-Just run the program in appropriate environment.  Please confirm the package requirements are satisfiled.
+Just run the program in appropriate environment.  Please confirm the package requirements are fullfilled.
