@@ -1,7 +1,7 @@
 macro "mnist_2layers"{
 	/**
-		load weight and bias outputs of mnist2layersKeras.py,
-		predict the number written in input image.
+		import weights and biases of mnist2layersKeras.py,
+		estimate the number drawn in input image.
 
 		User-defined function:
 		ToFloat, PlotProbability, Dense, Relu, Softmax
@@ -13,7 +13,7 @@ macro "mnist_2layers"{
 	VISIBLE = 0;
 	DIR = getDirectory("plugins")+"mymacro/";
 
-	////////////// load weights & biases /////////////
+	////////////// import weights & biases /////////////
 	Wbs = split(File.openAsString(DIR+"mnist2layersWeight.txt"),"\]\[");
 	dense1w = ToFloat(Wbs[0]);
 	dense1b = ToFloat(Wbs[1]);
