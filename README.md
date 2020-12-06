@@ -13,7 +13,7 @@ On-the-spot handwriting number recognition based on a two-layers dense neural ne
 - mnist_2layers.ijm
 
 ### mnist2layersKeras.py
-This program imports MNIST dataset, and executes two-layers dense neural net learning by Keras.  The parameters of the neural net (weights and biases) will be saved as a text file in '/Applications/ImageJ/plugins/mymacro/'.  Please install imageJ and create 'mymacro' folder in the 'plugins' folder before running this program.
+This program imports MNIST dataset, and executes two-layers dense neural net trained using Keras.  The parameters of the neural net (weights and biases) will be saved as a text file in '/Applications/ImageJ/plugins/mymacro/'.  Please install imageJ and create 'mymacro' folder in the 'plugins' folder before running this program.
 
 ### mnist2layersWeight.txt
 An example output of mnist2layersKeras.py.
@@ -35,4 +35,4 @@ This program is written in ImageJ macro.  Handwriting number will be estimated b
 - The image is binned by average into 28x28 pix during estimation.
 
 ### neural net learning
-Just run the program in an appropriate environment.  Please confirm the package requirements are fulfilled.
+Run the python program 'mnist2layersKeras.py' in an appropriate environment.  Please confirm the package requirements are fulfilled.
